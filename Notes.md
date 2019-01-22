@@ -10,6 +10,8 @@ Quand on est sur le même réseau de quelqu'un on a pas besoin de sont IP, on pe
 
 > Quand on ping quelqu'un on ping le broadcast pour chercher l’adresse mac du destinataire
 
+Si le pc reçoit un ping avec son ip mais
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjIwNDE4LDE4MzIxODQ2NV19
+eyJoaXN0b3J5IjpbLTY0MDQ0MTMxMywtNTE2MjA0MTgsMTgzMj
+E4NDY1XX0=
 -->
