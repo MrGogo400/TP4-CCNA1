@@ -14,7 +14,14 @@ Si le pc reçoit un ping avec son ip mais pas la bonne adresse mac il va automat
 
 > Si il ne connait pas la personne il fait un "arp broadcast" et il passe par le broadcast
 
+ 1. ping ip
+ 2. Check table routage
+		KO -> X
+		OK -> gw
+3. Check ARP table
+	4. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0OTY1MTM3LC01MTYyMDQxOCwxODMyMT
-g0NjVdfQ==
+eyJoaXN0b3J5IjpbLTI1MTUyOTk1MCw0NDQ5NjUxMzcsLTUxNj
+IwNDE4LDE4MzIxODQ2NV19
 -->
