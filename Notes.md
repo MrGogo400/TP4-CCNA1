@@ -18,12 +18,13 @@ Si le pc reçoit un ping avec son ip mais pas la bonne adresse mac il va automat
  2. Check table routage
 		KO -> X
 		OK -> gw
-3. Check ARP table
+ 3. Check ARP table
 		y-a-t'il "ip de la gw" ?
-				KO -> X
-				OK -> 
+				KO -> arp broadcast
+				OK -> on a déjà sa MAC
+4 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzk1MTg3OCw0NDQ5NjUxMzcsLTUxNj
+eyJoaXN0b3J5IjpbMTcwMzA3MjgwNiw0NDQ5NjUxMzcsLTUxNj
 IwNDE4LDE4MzIxODQ2NV19
 -->
