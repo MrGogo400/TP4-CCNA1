@@ -20,9 +20,10 @@ Si le pc reçoit un ping avec son ip mais pas la bonne adresse mac il va automat
 		OK -> gw
 3. Check ARP table
 		y-a-t'il "ip de la gw" ?
-				KO -> 
+				KO -> X
+				OK -> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMTkyMDMzLDQ0NDk2NTEzNywtNTE2Mj
-A0MTgsMTgzMjE4NDY1XX0=
+eyJoaXN0b3J5IjpbLTYyNzk1MTg3OCw0NDQ5NjUxMzcsLTUxNj
+IwNDE4LDE4MzIxODQ2NV19
 -->
