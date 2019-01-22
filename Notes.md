@@ -4,6 +4,8 @@
 3 - Interface de sortie
 
 > Pour faire un ping il faut aussi un pong donc il faut que la machine pingé connaissent la route vers notre machine
+
+Quand on est sur le même réseau de quelqu'un on a pas besoin de sont IP, on peux ping son MAC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjE4NDY1XX0=
+eyJoaXN0b3J5IjpbLTM1NjI4NTgzMiwxODMyMTg0NjVdfQ==
 -->
