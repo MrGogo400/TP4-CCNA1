@@ -6,7 +6,7 @@
 
 > Pour faire un ping il faut aussi un pong donc il faut que la machine pingé connaissent la route vers notre machine
 
-Quand on est sur le même réseau de quelqu'un on a pas besoin de sont IP, on peux ping son MACx	x	x	
+Quand on est sur le même réseau de quelqu'un on a pas besoin de sont IP, on peux ping son MAC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTE0MDg5NywxODMyMTg0NjVdfQ==
+eyJoaXN0b3J5IjpbLTIwMDIxNjc5MzMsMTgzMjE4NDY1XX0=
 -->
