@@ -42,13 +42,13 @@ sur `server1`
 ---
 
     [root@server1 hugo]# ip neigh show
-    10.2.0.254 dev enp0s8 lladdr 08:00:27:25:24:67 STALE
-    10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:04 DELAY
+    10.2.0.254 dev enp0s8 lladdr 08:00:27:25:24:67 REACHABLE
+    10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:04 REACHABLE
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDI1NDI1NSwxMTMxMzU1MDkzLDExOT
+eyJoaXN0b3J5IjpbLTk4NDA4NzM3OSwxMTMxMzU1MDkzLDExOT
 UxODQ4MzMsNTU4MTI3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMx
 MjldfQ==
 -->
