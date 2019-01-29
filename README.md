@@ -20,22 +20,13 @@ sur `server1`
  #### Expliquer la seul ligne visible 
  - Cette ligne signifie la connexion entre l'hôte (mon pc) et la VM serveur1. Cet connexion provient du fait que je sois connecter en SSH sur la VM. 
 
-
-
-[root@client1 hugo]# ping server1.tp4
+    [root@client1 hugo]# ping server1.tp4
     PING server1.tp4 (10.2.0.10) 56(84) bytes of data.
     64 bytes from server1.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=1.24 ms
     64 bytes from server1.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=1.40 ms
     64 bytes from server1.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=1.25 ms
-    ^C
-    --- server1.tp4 ping statistics ---
-    3 packets transmitted, 3 received, 0% packet loss, time 2019ms
-    rtt min/avg/max/mdev = 1.243/1.300/1.403/0.078 ms
-    [root@client1 hugo]# ip neigh show
-    10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
-    10.1.0.254 dev enp0s8 lladdr 08:00:27:9c:39:75 REACHABLE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzg0ODg4LDU1ODEyNzUyMCwtMTk1MT
-U2ODEyOCwtNjYwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbMTE5NTE4NDgzMyw1NTgxMjc1MjAsLTE5NT
+E1NjgxMjgsLTY2MDQ1MzEyOV19
 -->
