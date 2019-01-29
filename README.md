@@ -19,7 +19,14 @@ sur `server1`
 
  #### Expliquer la seul ligne visible 
  - Cette ligne signifie la connexion entre l'hôte (mon pc) et la VM serveur1. Cet connexion provient du fait que je sois connecter en SSH sur la VM. 
+
+sur `client1`
+
+-   ping  `server1`
+-   afficher la table ARP
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4MTI3NTIwLC0xOTUxNTY4MTI4LC02Nj
-A0NTMxMjldfQ==
+eyJoaXN0b3J5IjpbLTEwNzM0NzgxNjAsNTU4MTI3NTIwLC0xOT
+UxNTY4MTI4LC02NjA0NTMxMjldfQ==
 -->
