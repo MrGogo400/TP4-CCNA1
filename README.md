@@ -37,8 +37,18 @@ sur `server1`
 
 #### Expliquer le changement :
 
-- Maintenant que j'ai ping le server1
+- Maintenant que j'ai ping le server1, on peut voir l'ip du router s'affichait `10.1.0.254`.
+
+---
+
+    [root@server1 hugo]# ip neigh show
+    10.2.0.254 dev enp0s8 lladdr 08:00:27:25:24:67 STALE
+    10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:04 DELAY
+
+ 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1OD
-EyNzUyMCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbMTYzMDI1NDI1NSwxMTMxMzU1MDkzLDExOT
+UxODQ4MzMsNTU4MTI3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMx
+MjldfQ==
 -->
