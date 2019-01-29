@@ -35,8 +35,10 @@ sur `server1`
     10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
     10.1.0.254 dev enp0s8 lladdr 08:00:27:9c:39:75 REACHABLE
 
-#### Expli
+#### Expliquer le changement :
+
+- Maintenant que j'ai ping le server1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU0NTIyODgsMTE5NTE4NDgzMyw1NT
-gxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbMTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1OD
+EyNzUyMCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
 -->
