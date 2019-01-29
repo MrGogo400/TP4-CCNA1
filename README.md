@@ -7,11 +7,11 @@ sur `client1`
     
     10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
 
-- Expliquer la seul ligne visible :
-Cette ligne 
+ #### Expliquer la seul ligne visible 
+Cette ligne signifie la connexion entre l'hte  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY5MzM5MTYsLTE5NTE1NjgxMjgsLT
-Y2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbMTg0MzE4NDc3MSwtMTk1MTU2ODEyOCwtNj
+YwNDUzMTI5XX0=
 -->
