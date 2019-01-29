@@ -20,13 +20,13 @@ sur `server1`
  #### Expliquer la seul ligne visible 
  - Cette ligne signifie la connexion entre l'hôte (mon pc) et la VM serveur1. Cet connexion provient du fait que je sois connecter en SSH sur la VM. 
 
-    [root@client1 hugo]# ping server1.tp4
-    PING server1.tp4 (10.2.0.10) 56(84) bytes of data.
-    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=1.24 ms
-    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=1.40 ms
-    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=1.25 ms
+[root@client1 hugo]# ping server1.tp4
+PING server1.tp4 (10.2.0.10) 56(84) bytes of data.
+64 bytes from server1.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=1.24 ms
+64 bytes from server1.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=1.40 ms
+64 bytes from server1.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=1.25 ms
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTE4NDgzMyw1NTgxMjc1MjAsLTE5NT
-E1NjgxMjgsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbLTkzMDQxODc1MSwxMTk1MTg0ODMzLDU1OD
+EyNzUyMCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
 -->
