@@ -7,8 +7,10 @@ sur `client1`
     
     10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
 
+- Expliquer la seul ligne visible :
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDYzNDY2MDUsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
 -->
