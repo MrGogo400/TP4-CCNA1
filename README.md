@@ -61,9 +61,26 @@ sur `server1`
 
 La seul connexion établi est entre le `router1` et le `pc hôte` 
 
+---
+sur `client1`
+
+-   ping  `server1`
+
+    [root@client1 hugo]# ping server1.tp4
+    PING server1.tp4 (10.2.0.10) 56(84) bytes of data.
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=0.987 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=0.932 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=1.11 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=4 ttl=63 time=1.27 ms
+    ^C
+    --- server1.tp4 ping statistics ---
+    4 packets transmitted, 4 received, 0% packet loss, time 3018ms
+    rtt min/avg/max/mdev = 0.932/1.078/1.278/0.137 ms
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3ODE4NTg1LDE1MTU0NTQ0OTIsMzYzNz
-M3OTk1LC05ODQwODczNzksMTEzMTM1NTA5MywxMTk1MTg0ODMz
-LDU1ODEyNzUyMCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbLTQ0MTk0NTA3LDY4NzgxODU4NSwxNTE1ND
+U0NDkyLDM2MzczNzk5NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMs
+MTE5NTE4NDgzMyw1NTgxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MD
+Q1MzEyOV19
 -->
