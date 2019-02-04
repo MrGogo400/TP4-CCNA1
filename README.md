@@ -154,7 +154,7 @@ Afficher la table ARP
       224.0.0.252           01-00-5e-00-00-fc     statique
       239.255.255.250       01-00-5e-7f-ff-fa     statique
 
--   vider la table ARP
+  **Vider la table ARP**
 
     C:\WINDOWS\system32>netsh interface ip delete arpcache
     Ok.
@@ -187,8 +187,9 @@ Afficher la table ARP
       Adresse Internet      Adresse physique      Type
       224.0.0.22            01-00-5e-00-00-16     statique
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzYxNDIxMjgsLTgzODM0MTE2Myw2OD
+eyJoaXN0b3J5IjpbLTEzNjg0MDcyMTUsLTgzODM0MTE2Myw2OD
 c4MTg1ODUsMTUxNTQ1NDQ5MiwzNjM3Mzc5OTUsLTk4NDA4NzM3
 OSwxMTMxMzU1MDkzLDExOTUxODQ4MzMsNTU4MTI3NTIwLC0xOT
 UxNTY4MTI4LC02NjA0NTMxMjldfQ==
