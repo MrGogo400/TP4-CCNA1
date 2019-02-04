@@ -47,14 +47,13 @@ sur `server1`
 
 ###  **B. Manip 2**
  
- 
-
     [root@router1 hugo]# ip neigh flush all
     [root@router1 hugo]# ip neigh show
     10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMyMzQ3NzIsMzYzNzM3OTk1LC05OD
-QwODczNzksMTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1ODEyNzUy
-MCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbMTUxNTQ1NDQ5MiwzNjM3Mzc5OTUsLTk4ND
+A4NzM3OSwxMTMxMzU1MDkzLDExOTUxODQ4MzMsNTU4MTI3NTIw
+LC0xOTUxNTY4MTI4LC02NjA0NTMxMjldfQ==
 -->
