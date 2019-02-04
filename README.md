@@ -249,11 +249,13 @@ The document has moved
 10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:0f REACHABLE
 ```
 
-### expliquer le(s) changement(s)
+### Expliquer le(s) changement(s)
+il y a une connexion entre la VM et la carte NAT. L'ip correspond 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTY0ODYyMiwtMTM2ODQwNzIxNSwtOD
-M4MzQxMTYzLDY4NzgxODU4NSwxNTE1NDU0NDkyLDM2MzczNzk5
-NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgzMyw1NT
-gxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbLTEzNjI4Mjg2OTMsLTEzNjg0MDcyMTUsLT
+gzODM0MTE2Myw2ODc4MTg1ODUsMTUxNTQ1NDQ5MiwzNjM3Mzc5
+OTUsLTk4NDA4NzM3OSwxMTMxMzU1MDkzLDExOTUxODQ4MzMsNT
+U4MTI3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMxMjldfQ==
 -->
