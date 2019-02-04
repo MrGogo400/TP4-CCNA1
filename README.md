@@ -187,10 +187,50 @@ Afficher la table ARP
       Adresse Internet      Adresse physique      Type
       224.0.0.22            01-00-5e-00-00-16     statique
 
-Après 
+Après avoir attendu :
+
+C:\WINDOWS\system32>arp -a
+
+    Interface : 192.168.0.19 --- 0x2
+      Adresse Internet      Adresse physique      Type
+      192.168.0.1           d0-84-b0-f5-96-4c     dynamique
+      192.168.0.2           18-1e-78-e6-62-28     dynamique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 10.2.0.1 --- 0x4
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 10.1.0.1 --- 0x7
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.56.1 --- 0x9
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.168.1 --- 0xe
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.49.1 --- 0x14
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+
+## C. Manip 4
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjAwMjc1MSwtMTM2ODQwNzIxNSwtOD
-M4MzQxMTYzLDY4NzgxODU4NSwxNTE1NDU0NDkyLDM2MzczNzk5
-NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgzMyw1NT
-gxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbMzQzMjE3MzAsLTEzNjg0MDcyMTUsLTgzOD
+M0MTE2Myw2ODc4MTg1ODUsMTUxNTQ1NDQ5MiwzNjM3Mzc5OTUs
+LTk4NDA4NzM3OSwxMTMxMzU1MDkzLDExOTUxODQ4MzMsNTU4MT
+I3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMxMjldfQ==
 -->
