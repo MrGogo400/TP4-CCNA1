@@ -1,6 +1,6 @@
 TP4-CCNA1
 
-### A. Manip 1
+## A. Manip 1
 Sur `client1`
 
    - afficher la table ARP
@@ -45,7 +45,7 @@ sur `server1`
     10.2.0.254 dev enp0s8 lladdr 08:00:27:25:24:67 REACHABLE
     10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:04 REACHABLE
 
-###  **B. Manip 2**
+##  **B. Manip 2**
  Sur `router1`
 
    Afficher la table ARP
@@ -89,10 +89,14 @@ Sur `router1`
 
 ### expliquer le(s) changement(s)
 
-Maintenant le router reste connecter au pc hôte mais possède desormais aussi les connexions vers server1 et clie
+Maintenant le router reste connecter au `pc hôte` mais possède désormais aussi les connexions vers `server1` et `client1`
+
+## C. Manip 3
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDM4NDY4NzMsNjg3ODE4NTg1LDE1MT
-U0NTQ0OTIsMzYzNzM3OTk1LC05ODQwODczNzksMTEzMTM1NTA5
-MywxMTk1MTg0ODMzLDU1ODEyNzUyMCwtMTk1MTU2ODEyOCwtNj
-YwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbLTgzODM0MTE2Myw2ODc4MTg1ODUsMTUxNT
+Q1NDQ5MiwzNjM3Mzc5OTUsLTk4NDA4NzM3OSwxMTMxMzU1MDkz
+LDExOTUxODQ4MzMsNTU4MTI3NTIwLC0xOTUxNTY4MTI4LC02Nj
+A0NTMxMjldfQ==
 -->
