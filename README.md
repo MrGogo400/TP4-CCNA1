@@ -233,10 +233,18 @@ sur  `client1` afficher la table ARP
     10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
 
 
-
+```
+[root@client1 hugo]]# curl google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjQ5NzUxOCwtMTM2ODQwNzIxNSwtOD
-M4MzQxMTYzLDY4NzgxODU4NSwxNTE1NDU0NDkyLDM2MzczNzk5
-NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgzMyw1NT
-gxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbLTE3MjYxNzE2NzYsLTEzNjg0MDcyMTUsLT
+gzODM0MTE2Myw2ODc4MTg1ODUsMTUxNTQ1NDQ5MiwzNjM3Mzc5
+OTUsLTk4NDA4NzM3OSwxMTMxMzU1MDkzLDExOTUxODQ4MzMsNT
+U4MTI3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMxMjldfQ==
 -->
