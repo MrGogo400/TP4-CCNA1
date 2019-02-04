@@ -242,11 +242,18 @@ The document has moved
 <A HREF="http://www.google.com/">here</A>.
 </BODY></HTML>
 ```
+**Afficher la table ARP**
+```
+[root@client1 hugo]# ip neigh show
+10.0.2.2 dev enp0s3 lladdr 25:45:00:21:53:20 REACHABLE
+10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:0f REACHABLE
+```
 
-[louis@tp4 ~]$ ip neigh
+### expliquer le(s) changement(s)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5NDU1MDIyLC0xMzY4NDA3MjE1LC04Mz
-gzNDExNjMsNjg3ODE4NTg1LDE1MTU0NTQ0OTIsMzYzNzM3OTk1
-LC05ODQwODczNzksMTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1OD
-EyNzUyMCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbLTI1MTY0ODYyMiwtMTM2ODQwNzIxNSwtOD
+M4MzQxMTYzLDY4NzgxODU4NSwxNTE1NDU0NDkyLDM2MzczNzk5
+NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgzMyw1NT
+gxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
 -->
