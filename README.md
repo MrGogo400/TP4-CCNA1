@@ -78,14 +78,21 @@ Sur `client1`
     4 packets transmitted, 4 received, 0% packet loss, time 3018ms
     rtt min/avg/max/mdev = 0.932/1.078/1.278/0.137 ms
 
-sur `router1`
+Sur `router1`
 
-  afficher la table ARP
+  Afficher la table ARP
 
+    [root@router1 hugo]# ip neigh show
+    10.2.0.10 dev enp0s9 lladdr 08:00:27:71:dc:a1 STALE
+    10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 DELAY
+    10.1.0.10 dev enp0s8 lladdr 08:00:27:21:17:90 STALE
 
+### expliquer le(s) changement(s)
+
+Maintenant le router reste connecter au pc hôte mais possède desormais aussi les connexions vers server1 et clie
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NzQwNDc0LDY4NzgxODU4NSwxNTE1ND
-U0NDkyLDM2MzczNzk5NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMs
-MTE5NTE4NDgzMyw1NTgxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MD
-Q1MzEyOV19
+eyJoaXN0b3J5IjpbLTEyMDM4NDY4NzMsNjg3ODE4NTg1LDE1MT
+U0NTQ0OTIsMzYzNzM3OTk1LC05ODQwODczNzksMTEzMTM1NTA5
+MywxMTk1MTg0ODMzLDU1ODEyNzUyMCwtMTk1MTU2ODEyOCwtNj
+YwNDUzMTI5XX0=
 -->
