@@ -276,11 +276,11 @@ La capture des trames sur le `router1`
     0 packets dropped by kernel
 
 
-
+![https://github.com/MrGogo400/TP4-CCNA1/blob/master/img/Wireshark.png?raw=true](https://github.com/MrGogo400/TP4-CCNA1/blob/master/img/Wireshark.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDU1MzUxNyw4NDMwMjIxMzQsMTIwOT
-UwMzI2MiwtMTM2ODQwNzIxNSwtODM4MzQxMTYzLDY4NzgxODU4
-NSwxNTE1NDU0NDkyLDM2MzczNzk5NSwtOTg0MDg3Mzc5LDExMz
-EzNTUwOTMsMTE5NTE4NDgzMyw1NTgxMjc1MjAsLTE5NTE1Njgx
-MjgsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbLTEyMjQ5MzIyNzUsMTM2NDU1MzUxNyw4ND
+MwMjIxMzQsMTIwOTUwMzI2MiwtMTM2ODQwNzIxNSwtODM4MzQx
+MTYzLDY4NzgxODU4NSwxNTE1NDU0NDkyLDM2MzczNzk5NSwtOT
+g0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgzMyw1NTgxMjc1
+MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
 -->
