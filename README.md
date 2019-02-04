@@ -1,6 +1,6 @@
 TP4-CCNA1
 
-### A. Manip 1
+## A. Manip 1
 Sur `client1`
 
    - afficher la table ARP
@@ -45,10 +45,242 @@ sur `server1`
     10.2.0.254 dev enp0s8 lladdr 08:00:27:25:24:67 REACHABLE
     10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:04 REACHABLE
 
+##  **B. Manip 2**
+ Sur `router1`
+
+   Afficher la table ARP
  
+ 
+    [root@router1 hugo]# ip neigh flush all
+    [root@router1 hugo]# ip neigh show
+    10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
+
+
+
+   ### expliquer le(s) ligne(s)
+
+La seul connexion établi est entre le `router1` et le `pc hôte` 
+
+---
+
+Sur `client1`
+
+  Ping  `server1`
+
+    [root@client1 hugo]# ping server1.tp4
+    PING server1.tp4 (10.2.0.10) 56(84) bytes of data.
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=0.987 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=0.932 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=1.11 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=4 ttl=63 time=1.27 ms
+    ^C
+    --- server1.tp4 ping statistics ---
+    4 packets transmitted, 4 received, 0% packet loss, time 3018ms
+    rtt min/avg/max/mdev = 0.932/1.078/1.278/0.137 ms
+
+Sur `router1`
+
+  Afficher la table ARP
+
+    [root@router1 hugo]# ip neigh show
+    10.2.0.10 dev enp0s9 lladdr 08:00:27:71:dc:a1 STALE
+    10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 DELAY
+    10.1.0.10 dev enp0s8 lladdr 08:00:27:21:17:90 STALE
+
+### expliquer le(s) changement(s)
+
+Maintenant le router reste connecter au `pc hôte` mais possède désormais aussi les connexions vers `server1` et `client1`
+
+## C. Manip 3
+
+Sur l'hôte (votre PC)
+
+Afficher la table ARP
+
+    C:\Users\Hugo>arp -a
+    
+    Interface : 192.168.0.19 --- 0x2
+      Adresse Internet      Adresse physique      Type
+      192.168.0.1           d0-84-b0-f5-96-4c     dynamique
+      192.168.0.2           18-1e-78-e6-62-28     dynamique
+      192.168.0.255         ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+      255.255.255.255       ff-ff-ff-ff-ff-ff     statique
+    
+    Interface : 10.2.0.1 --- 0x4
+      Adresse Internet      Adresse physique      Type
+      10.2.0.10             08-00-27-71-dc-a1     dynamique
+      10.2.0.254            08-00-27-25-24-67     dynamique
+      10.2.0.255            ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 10.1.0.1 --- 0x7
+      Adresse Internet      Adresse physique      Type
+      10.1.0.10             08-00-27-21-17-90     dynamique
+      10.1.0.254            08-00-27-9c-39-75     dynamique
+      10.1.0.255            ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.56.1 --- 0x9
+      Adresse Internet      Adresse physique      Type
+      192.168.56.255        ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.168.1 --- 0xe
+      Adresse Internet      Adresse physique      Type
+      192.168.168.255       ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.49.1 --- 0x14
+      Adresse Internet      Adresse physique      Type
+      192.168.49.255        ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+
+  **Vider la table ARP**
+
+    C:\WINDOWS\system32>netsh interface ip delete arpcache
+    Ok.
+    
+    
+    C:\WINDOWS\system32>arp -a
+    
+    Interface : 192.168.0.19 --- 0x2
+      Adresse Internet      Adresse physique      Type
+      192.168.0.1           d0-84-b0-f5-96-4c     dynamique
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 10.2.0.1 --- 0x4
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 10.1.0.1 --- 0x7
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 192.168.56.1 --- 0x9
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 192.168.168.1 --- 0xe
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 192.168.49.1 --- 0x14
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+
+Après avoir attendu :
+
+C:\WINDOWS\system32>arp -a
+
+    Interface : 192.168.0.19 --- 0x2
+      Adresse Internet      Adresse physique      Type
+      192.168.0.1           d0-84-b0-f5-96-4c     dynamique
+      192.168.0.2           18-1e-78-e6-62-28     dynamique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 10.2.0.1 --- 0x4
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 10.1.0.1 --- 0x7
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.56.1 --- 0x9
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.168.1 --- 0xe
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.49.1 --- 0x14
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+
+## C. Manip 4
+
+sur  `client1` afficher la table ARP
+
+    [root@client1 hugo]# ip neigh show
+    10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
+  **Joindre internet (`curl google.com`  par exemple)**
+
+```
+[root@client1 hugo]]# curl google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+```
+**Afficher la table ARP**
+```
+[root@client1 hugo]# ip neigh show
+10.0.2.2 dev enp0s3 lladdr 25:45:00:21:53:20 REACHABLE
+10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:0f REACHABLE
+```
+
+### Expliquer le(s) changement(s)
+il y a une connexion entre la VM et la carte NAT. L'ip correspond la l'ip local de la VM.
+
+## Wireshark
+
+Les 4 ping envoyer au routeur depuis `client1`.
+
+    [root@client1 hugo]# ping -c 4 server1.tp4
+    PING server1.tp4 (10.2.0.10) 56(84) bytes of data.
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=1.73 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=0.767 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=1.08 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=4 ttl=63 time=0.624 ms
+    
+    --- server1.tp4 ping statistics ---
+    4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+    rtt min/avg/max/mdev = 0.624/1.054/1.736/0.428 ms
+
+La capture des trames sur le `router1`
+
+    [root@router1 hugo]# tcpdump -i enp0s8 -w ping.pcap
+    tcpdump: listening on enp0s8, link-type EN10MB (Ethernet), capture size 262144 bytes
+    ^C20 packets captured
+    20 packets received by filter
+    0 packets dropped by kernel
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDA4NzM3OSwxMTMxMzU1MDkzLDExOT
-UxODQ4MzMsNTU4MTI3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMx
-MjldfQ==
+eyJoaXN0b3J5IjpbMTM2NDU1MzUxNyw4NDMwMjIxMzQsMTIwOT
+UwMzI2MiwtMTM2ODQwNzIxNSwtODM4MzQxMTYzLDY4NzgxODU4
+NSwxNTE1NDU0NDkyLDM2MzczNzk5NSwtOTg0MDg3Mzc5LDExMz
+EzNTUwOTMsMTE5NTE4NDgzMyw1NTgxMjc1MjAsLTE5NTE1Njgx
+MjgsLTY2MDQ1MzEyOV19
 -->
