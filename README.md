@@ -49,8 +49,12 @@ sur `server1`
  
  
 
+    [root@router1 hugo]# ip neigh flush all
+    [root@router1 hugo]# ip neigh show
+    10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzNzM3OTk1LC05ODQwODczNzksMTEzMT
-M1NTA5MywxMTk1MTg0ODMzLDU1ODEyNzUyMCwtMTk1MTU2ODEy
-OCwtNjYwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbLTIxMDMyMzQ3NzIsMzYzNzM3OTk1LC05OD
+QwODczNzksMTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1ODEyNzUy
+MCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
 -->
