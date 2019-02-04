@@ -231,7 +231,7 @@ sur  `client1` afficher la table ARP
 
     [root@client1 hugo]# ip neigh show
     10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
-
+  **Joindre internet (`curl google.com`  par exemple)**
 
 ```
 [root@client1 hugo]]# curl google.com
@@ -242,9 +242,11 @@ The document has moved
 <A HREF="http://www.google.com/">here</A>.
 </BODY></HTML>
 ```
+
+[louis@tp4 ~]$ ip neigh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjYxNzE2NzYsLTEzNjg0MDcyMTUsLT
-gzODM0MTE2Myw2ODc4MTg1ODUsMTUxNTQ1NDQ5MiwzNjM3Mzc5
-OTUsLTk4NDA4NzM3OSwxMTMxMzU1MDkzLDExOTUxODQ4MzMsNT
-U4MTI3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMxMjldfQ==
+eyJoaXN0b3J5IjpbODM5NDU1MDIyLC0xMzY4NDA3MjE1LC04Mz
+gzNDExNjMsNjg3ODE4NTg1LDE1MTU0NTQ0OTIsMzYzNzM3OTk1
+LC05ODQwODczNzksMTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1OD
+EyNzUyMCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
 -->
