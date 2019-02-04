@@ -46,7 +46,9 @@ sur `server1`
     10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:04 REACHABLE
 
 ###  **B. Manip 2**
- 
+ sur `router1`
+
+   afficher la table ARP
  
  
     [root@router1 hugo]# ip neigh flush all
@@ -57,7 +59,7 @@ sur `server1`
 
 -   **expliquer le(s) ligne(s)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzI3NzkxMiwxNTE1NDU0NDkyLDM2Mz
+eyJoaXN0b3J5IjpbMTI3MDgwMTI5MCwxNTE1NDU0NDkyLDM2Mz
 czNzk5NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgz
 Myw1NTgxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
 -->
