@@ -254,13 +254,33 @@ il y a une connexion entre la VM et la carte NAT. L'ip correspond la l'ip local 
 
 ## Wireshark
 
+Les 4 ping envoyer au routeur depuis `client1`.
+
+    [root@client1 hugo]# ping -c 4 server1.tp4
+    PING server1.tp4 (10.2.0.10) 56(84) bytes of data.
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=1.73 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=0.767 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=1.08 ms
+    64 bytes from server1.tp4 (10.2.0.10): icmp_seq=4 ttl=63 time=0.624 ms
+    
+    --- server1.tp4 ping statistics ---
+    4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+    rtt min/avg/max/mdev = 0.624/1.054/1.736/0.428 ms
+
+La capture des trames sur le `router1`
+
+    [root@router1 hugo]# tcpdump -i enp0s8 -w ping.pcap
+    tcpdump: listening on enp0s8, link-type EN10MB (Ethernet), capture size 262144 bytes
+    ^C20 packets captured
+    20 packets received by filter
+    0 packets dropped by kernel
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMDIyMTM0LDEyMDk1MDMyNjIsLTEzNj
-g0MDcyMTUsLTgzODM0MTE2Myw2ODc4MTg1ODUsMTUxNTQ1NDQ5
-MiwzNjM3Mzc5OTUsLTk4NDA4NzM3OSwxMTMxMzU1MDkzLDExOT
-UxODQ4MzMsNTU4MTI3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMx
-MjldfQ==
+eyJoaXN0b3J5IjpbMTM2NDU1MzUxNyw4NDMwMjIxMzQsMTIwOT
+UwMzI2MiwtMTM2ODQwNzIxNSwtODM4MzQxMTYzLDY4NzgxODU4
+NSwxNTE1NDU0NDkyLDM2MzczNzk5NSwtOTg0MDg3Mzc5LDExMz
+EzNTUwOTMsMTE5NTE4NDgzMyw1NTgxMjc1MjAsLTE5NTE1Njgx
+MjgsLTY2MDQ1MzEyOV19
 -->
