@@ -93,10 +93,12 @@ Maintenant le router reste connecter au `pc hôte` mais possède désormais auss
 
 ## C. Manip 3
 
+Sur l'hôte (votre PC)
 
+Afficher la table ARP :
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODM0MTE2Myw2ODc4MTg1ODUsMTUxNT
-Q1NDQ5MiwzNjM3Mzc5OTUsLTk4NDA4NzM3OSwxMTMxMzU1MDkz
-LDExOTUxODQ4MzMsNTU4MTI3NTIwLC0xOTUxNTY4MTI4LC02Nj
-A0NTMxMjldfQ==
+eyJoaXN0b3J5IjpbOTY2MzEzOTYzLC04MzgzNDExNjMsNjg3OD
+E4NTg1LDE1MTU0NTQ0OTIsMzYzNzM3OTk1LC05ODQwODczNzks
+MTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1ODEyNzUyMCwtMTk1MT
+U2ODEyOCwtNjYwNDUzMTI5XX0=
 -->
