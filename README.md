@@ -227,15 +227,16 @@ C:\WINDOWS\system32>arp -a
 
 ## C. Manip 4
 
+sur  `client1` afficher la table ARP
 
+    [root@client1 hugo]# ip neigh show
+    10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
 
-[root@client1 hugo]# ip neigh show
-10.1.0.1 dev enp0s8 lladdr 0a:00:27:00:00:07 REACHABLE
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2Mjg1MDE0LC0xMzY4NDA3MjE1LC04Mz
-gzNDExNjMsNjg3ODE4NTg1LDE1MTU0NTQ0OTIsMzYzNzM3OTk1
-LC05ODQwODczNzksMTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1OD
-EyNzUyMCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbLTc2MjQ5NzUxOCwtMTM2ODQwNzIxNSwtOD
+M4MzQxMTYzLDY4NzgxODU4NSwxNTE1NDU0NDkyLDM2MzczNzk5
+NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgzMyw1NT
+gxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
 -->
