@@ -46,9 +46,9 @@ sur `server1`
     10.2.0.1 dev enp0s8 lladdr 0a:00:27:00:00:04 REACHABLE
 
 ###  **B. Manip 2**
- sur `router1`
+ Sur `router1`
 
-   afficher la table ARP
+   Afficher la table ARP
  
  
     [root@router1 hugo]# ip neigh flush all
@@ -62,9 +62,10 @@ sur `server1`
 La seul connexion établi est entre le `router1` et le `pc hôte` 
 
 ---
-sur `client1`
 
--   ping  `server1`
+Sur `client1`
+
+  Ping  `server1`
 
     [root@client1 hugo]# ping server1.tp4
     PING server1.tp4 (10.2.0.10) 56(84) bytes of data.
@@ -77,9 +78,13 @@ sur `client1`
     4 packets transmitted, 4 received, 0% packet loss, time 3018ms
     rtt min/avg/max/mdev = 0.932/1.078/1.278/0.137 ms
 
+sur `router1`
+
+  afficher la table ARP
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTk0NTA3LDY4NzgxODU4NSwxNTE1ND
+eyJoaXN0b3J5IjpbODA1NzQwNDc0LDY4NzgxODU4NSwxNTE1ND
 U0NDkyLDM2MzczNzk5NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMs
 MTE5NTE4NDgzMyw1NTgxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MD
 Q1MzEyOV19
