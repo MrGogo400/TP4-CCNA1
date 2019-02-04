@@ -59,11 +59,11 @@ sur `server1`
 
    ### expliquer le(s) ligne(s)
 
-La seul connexion en cours et entre le `router1` et le `pc hôte` 
+La seul connexion établi est entre le `router1` et le `pc hôte` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzIwNDk0MiwxNTE1NDU0NDkyLDM2Mz
-czNzk5NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgz
-Myw1NTgxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbNjg3ODE4NTg1LDE1MTU0NTQ0OTIsMzYzNz
+M3OTk1LC05ODQwODczNzksMTEzMTM1NTA5MywxMTk1MTg0ODMz
+LDU1ODEyNzUyMCwtMTk1MTU2ODEyOCwtNjYwNDUzMTI5XX0=
 -->
