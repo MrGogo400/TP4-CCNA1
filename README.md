@@ -95,10 +95,101 @@ Maintenant le router reste connecter au `pc hôte` mais possède désormais auss
 
 Sur l'hôte (votre PC)
 
-Afficher la table ARP :
+Afficher la table ARP
+
+    C:\Users\Hugo>arp -a
+    
+    Interface : 192.168.0.19 --- 0x2
+      Adresse Internet      Adresse physique      Type
+      192.168.0.1           d0-84-b0-f5-96-4c     dynamique
+      192.168.0.2           18-1e-78-e6-62-28     dynamique
+      192.168.0.255         ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+      255.255.255.255       ff-ff-ff-ff-ff-ff     statique
+    
+    Interface : 10.2.0.1 --- 0x4
+      Adresse Internet      Adresse physique      Type
+      10.2.0.10             08-00-27-71-dc-a1     dynamique
+      10.2.0.254            08-00-27-25-24-67     dynamique
+      10.2.0.255            ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 10.1.0.1 --- 0x7
+      Adresse Internet      Adresse physique      Type
+      10.1.0.10             08-00-27-21-17-90     dynamique
+      10.1.0.254            08-00-27-9c-39-75     dynamique
+      10.1.0.255            ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.56.1 --- 0x9
+      Adresse Internet      Adresse physique      Type
+      192.168.56.255        ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.168.1 --- 0xe
+      Adresse Internet      Adresse physique      Type
+      192.168.168.255       ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+    
+    Interface : 192.168.49.1 --- 0x14
+      Adresse Internet      Adresse physique      Type
+      192.168.49.255        ff-ff-ff-ff-ff-ff     statique
+      224.0.0.22            01-00-5e-00-00-16     statique
+      224.0.0.251           01-00-5e-00-00-fb     statique
+      224.0.0.252           01-00-5e-00-00-fc     statique
+      239.255.255.250       01-00-5e-7f-ff-fa     statique
+
+-   vider la table ARP
+
+    C:\WINDOWS\system32>netsh interface ip delete arpcache
+    Ok.
+    
+    
+    C:\WINDOWS\system32>arp -a
+    
+    Interface : 192.168.0.19 --- 0x2
+      Adresse Internet      Adresse physique      Type
+      192.168.0.1           d0-84-b0-f5-96-4c     dynamique
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 10.2.0.1 --- 0x4
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 10.1.0.1 --- 0x7
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 192.168.56.1 --- 0x9
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 192.168.168.1 --- 0xe
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+    
+    Interface : 192.168.49.1 --- 0x14
+      Adresse Internet      Adresse physique      Type
+      224.0.0.22            01-00-5e-00-00-16     statique
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2MzEzOTYzLC04MzgzNDExNjMsNjg3OD
-E4NTg1LDE1MTU0NTQ0OTIsMzYzNzM3OTk1LC05ODQwODczNzks
-MTEzMTM1NTA5MywxMTk1MTg0ODMzLDU1ODEyNzUyMCwtMTk1MT
-U2ODEyOCwtNjYwNDUzMTI5XX0=
+eyJoaXN0b3J5IjpbLTE2MzYxNDIxMjgsLTgzODM0MTE2Myw2OD
+c4MTg1ODUsMTUxNTQ1NDQ5MiwzNjM3Mzc5OTUsLTk4NDA4NzM3
+OSwxMTMxMzU1MDkzLDExOTUxODQ4MzMsNTU4MTI3NTIwLC0xOT
+UxNTY4MTI4LC02NjA0NTMxMjldfQ==
 -->
