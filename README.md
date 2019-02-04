@@ -252,10 +252,15 @@ The document has moved
 ### Expliquer le(s) changement(s)
 il y a une connexion entre la VM et la carte NAT. L'ip correspond la l'ip local de la VM.
 
+## Wireshark
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTUwMzI2MiwtMTM2ODQwNzIxNSwtOD
-M4MzQxMTYzLDY4NzgxODU4NSwxNTE1NDU0NDkyLDM2MzczNzk5
-NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgzMyw1NT
-gxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
+eyJoaXN0b3J5IjpbODQzMDIyMTM0LDEyMDk1MDMyNjIsLTEzNj
+g0MDcyMTUsLTgzODM0MTE2Myw2ODc4MTg1ODUsMTUxNTQ1NDQ5
+MiwzNjM3Mzc5OTUsLTk4NDA4NzM3OSwxMTMxMzU1MDkzLDExOT
+UxODQ4MzMsNTU4MTI3NTIwLC0xOTUxNTY4MTI4LC02NjA0NTMx
+MjldfQ==
 -->
