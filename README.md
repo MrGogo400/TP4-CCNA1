@@ -58,8 +58,12 @@ sur `server1`
 
 
    ### expliquer le(s) ligne(s)
+
+La seul connexion en cours et entre le `router1` et le `pc hôte` 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTMyNzI5NiwxNTE1NDU0NDkyLDM2Mz
+eyJoaXN0b3J5IjpbMTgwNzIwNDk0MiwxNTE1NDU0NDkyLDM2Mz
 czNzk5NSwtOTg0MDg3Mzc5LDExMzEzNTUwOTMsMTE5NTE4NDgz
 Myw1NTgxMjc1MjAsLTE5NTE1NjgxMjgsLTY2MDQ1MzEyOV19
 -->
